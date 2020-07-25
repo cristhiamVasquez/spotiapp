@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class SpotifyService {
 
- tokenSpotify: string = 'Bearer BQBnIKfzhug75ctLkk8ZgA8HG8mjcK04N9BDPAQEVLkRiYeYVckrtxa_KaB_JW-uOSKrTIj33VJ4njJLFIc';
+ tokenSpotify: string = 'Bearer BQDKGQr0pssEdSXO8TtO6nB6nc8XHyijbws0a6Fg0_gGq1moqdEVxSYwokNY-OnZIQjDHPzLcvkIvUk27dc';
 
   constructor( private http: HttpClient ) {
     console.log('Spotify service listo!');
