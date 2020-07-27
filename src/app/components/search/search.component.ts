@@ -23,6 +23,9 @@ export class SearchComponent  {
           console.log(data);
           this.artistas = data;
           this.loading = false;
+        }, ( e ) => {
+          this.loading = false;
+          console.log(e);
         } )
   };
 
